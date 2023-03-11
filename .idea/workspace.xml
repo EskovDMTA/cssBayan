@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f73b53c4-5118-4423-b5fe-a440e999a42a" name="Changes" comment="" />
+    <list default="true" id="f73b53c4-5118-4423-b5fe-a440e999a42a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cssBayan/assets/images/6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/cssBayan/assets/images/6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cssBayan/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/cssBayan/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cssBayan/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cssBayan/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +42,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/cssBayan" />
     </key>
   </component>
@@ -49,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678442228771</updated>
       <workItem from="1678442230093" duration="25228000" />
-      <workItem from="1678528367023" duration="8340000" />
+      <workItem from="1678528367023" duration="14431000" />
     </task>
     <servers />
   </component>

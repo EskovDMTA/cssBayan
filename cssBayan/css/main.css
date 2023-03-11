@@ -2,9 +2,8 @@ body {
     background: bisque;
 }
 
-
 .container {
-    width: calc(100% - 30em);
+    width: 60%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -24,45 +23,56 @@ body {
 .meme-title {
     height: 2em;
     display: block;
-    cursor: pointer;
     font-size: 2em;
     transition: color .2s ease-out;
+    margin-top: 0.5em;
 }
 
 .accordion-item {
     display: none;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 20px;
-    height: 20px;
+    width: 2em;
+    height: 2em;
+    margin-top: 1em;
     background-image: url("../assets/images/sad.png");
     float: right;
 }
 
-
 .meme-input {
+    cursor: pointer;
     appearance: none;
-
-    height: 431px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     z-index: 2;
-    position: fixed;
 
 }
-span{
+
+span {
     width: 100%;
     height: 100%;
     display: inline-block;
 }
 
 .meme-item {
+    position: relative;
     border-top: 1px solid #c3c3c4;
-    cursor: pointer;
 }
 
+/*activ*/
+.meme-input:active ~ .meme-title {
+    color: rgba(23, 44, 126, 0.83);
+}
+
+.meme-input:active ~ .accordion-item {
+    background-color: rgba(23, 44, 126, 0.83);
+    border-radius: 2em;
+}
+
+/*activ end*/
 
 /*checked*/
-
-
 .meme-input:checked ~ .meme-image {
     display: flex;
     justify-content: center;
@@ -74,7 +84,7 @@ span{
 
 .meme-input:checked ~ .accordion-item {
     background-image: url("../assets/images/smile.png");
-
+    background-color: bisque;
 }
 
 /*checked end*/
@@ -97,15 +107,17 @@ span{
 /*hover end */
 
 
-
-
 .meme-image {
     display: none;
-    height: 350px;
     animation: imageAnimation 1.5s;
     margin-bottom: 1em;
 }
 
+.image-item {
+    max-width: 100%;
+    height: auto;
+
+}
 
 @keyframes imageAnimation {
 
@@ -121,4 +133,38 @@ span{
 
     }
 
+}
+
+@media screen and (max-width: 900px) {
+    .main-title {
+        font-size: 2em;
+    }
+
+    .meme-title {
+        font-size: 1em;
+    }
+
+    .accordion-item {
+        width: 1em;
+        height: 1em;
+        margin-top: 0.5em;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    .main-title {
+        font-size: 1em;
+    }
+
+    .meme-title {
+        font-size: 0.5em;
+    }
+
+    .accordion-item {
+        width: 0.5em;
+        height: 0.5em;
+        margin-top: 0.25em;
+    }
 }
