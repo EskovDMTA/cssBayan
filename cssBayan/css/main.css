@@ -5,13 +5,16 @@ body {
 /**/
 
 .container {
-    width: calc(100% - 50px);
+    width: calc(100% - 500px);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-content: center;
+    color: rgba(9, 42, 220, 0.83);
 }
-
+.container:hover {
+    color: #000000;
+}
 
 
 .meme-title {
@@ -28,7 +31,7 @@ body {
     background-size: cover;
     width: 20px;
     height: 20px;
-    background-image: url("../assets/images/close.png");
+    background-image: url("../assets/images/sad.png");
     float: right;
 }
 
@@ -43,13 +46,23 @@ body {
     position: absolute;
 }
 
-.meme-input:checked ~ .meme-image{
+.meme-input:checked ~ .meme-image {
     display: flex;
     justify-content: center;
 }
-.meme-input:checked ~ .accordion-item {
-    background-image: url("../assets/images/open.png");
 
+.meme-input:hover ~ .meme-image {
+    display: flex;
+    justify-content: center;
+}
+
+.meme-input:checked ~ .accordion-item {
+    background-image: url("../assets/images/smile.png");
+
+}
+
+.meme-input:hover ~ .accordion-item {
+    background-image: url("../assets/images/smile.png");
 }
 
 .meme-item {
@@ -64,7 +77,8 @@ body {
     animation: imageAnimation 1s;
 
 }
-.image-item{
+
+.image-item {
 
 }
 
