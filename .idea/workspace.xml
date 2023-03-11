@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f73b53c4-5118-4423-b5fe-a440e999a42a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cssBayan/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/cssBayan/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cssBayan/cssBayan.html" beforeDir="false" afterPath="$PROJECT_DIR$/cssBayan/cssBayan.html" afterDir="false" />
-    </list>
+    <list default="true" id="f73b53c4-5118-4423-b5fe-a440e999a42a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678442228771</updated>
       <workItem from="1678442230093" duration="25228000" />
-      <workItem from="1678528367023" duration="7546000" />
+      <workItem from="1678528367023" duration="8340000" />
     </task>
     <servers />
   </component>
