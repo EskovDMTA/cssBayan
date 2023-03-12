@@ -16,16 +16,17 @@ body {
 }
 
 .main-title {
-    font-size: 3em;
+    font-size: 2.5em;
+    margin: 0.4em 0;
 }
 
 
 .meme-title {
-    height: 2em;
+    height: 1.5em;
     display: block;
     font-size: 2em;
     transition: color .2s ease-out;
-    margin-top: 0.5em;
+    margin-top: 0.1em;
 }
 
 .accordion-item {
@@ -34,7 +35,7 @@ body {
     background-size: cover;
     width: 2em;
     height: 2em;
-    margin-top: 1em;
+    margin-top: 0.5em;
     background-image: url("../assets/images/sad.png");
     float: right;
 }
@@ -114,7 +115,7 @@ span {
 }
 
 .image-item {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 
 }
@@ -135,9 +136,9 @@ span {
 
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
     .main-title {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .meme-title {
@@ -150,10 +151,15 @@ span {
         margin-top: 0.5em;
     }
 
+    .image-item {
+        max-width: 50%;
+        height: auto;
+
+    }
 
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
     .main-title {
         font-size: 1em;
     }
@@ -167,4 +173,10 @@ span {
         height: 0.5em;
         margin-top: 0.25em;
     }
+
+    .image-item {
+        max-width: 50%;
+        height: auto;
+    }
+
 }
